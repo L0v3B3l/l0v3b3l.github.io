@@ -1,0 +1,76 @@
+/* Angular ejemplos */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+html, body {
+	overflow: hidden;
+}
+a {
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	padding: 5px 5px;
+	border: 2px hidden transparent;
+	box-shadow: 8px 8px 8px 8px black;
+	border-radius: 8px;
+	float: right;
+}
+a:hover {
+	background: #afbfff;
+	color: black;
+	box-shadow: 5px 5px 5px black;
+}
+body {
+	background: #00838f;
+	color: black;
+	font-family: courier;
+	font-size: 18px;
+}
+h4 {
+	text-align: center;
+	padding: 20px 0;
+	color:  #0097a7;
+}
+header {
+	background: black;
+	color: #00d5d5;
+	height: 60px;
+}
+div {
+	margin-left: 10px;
+	margin: 10px;
+}
+.content {
+	border-bottom: 0px hidden transparent;
+	box-shadow: 0px 5px 5px #00d5d5;
+	width: 100%;
+	padding: 10px 0;
+}
+.boton {
+	margin-left: 10px;
+}
+span {
+	margin-left: 10px;
+}
+input {
+	background: #bfffff ;
+	color: black;
+}
+button {
+	background: black;
+	color: #00d5d5;
+	padding: 10px 5px;
+	border-radius: 6px;
+	font-size: 18px;
+}
+button:hover {
+	background: white;
+	color: black;
+}
+@media screen and (min-width: 790px) {
+	.content {
+		width: 50%;
+	}
+}

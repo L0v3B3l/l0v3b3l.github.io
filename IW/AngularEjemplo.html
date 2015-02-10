@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html ng-app>
+<head>
+	<meta charset="UTF-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<title>Angular Ejemplos</title>
+	<link rel="icon" type="image/png" href="img/favicon.png">
+	<link rel="stylesheet" type="text/css" href="css/styleAngu.css">
+</head>
+<body ng-controller="GameController">
+<header>
+	<h4>Ejemplo angularJS</h4>
+</header>
+	<em><a href="http://l0v3b3l.github.io/IW/inmyworld.html">In my world</a></em>
+	<div class="box">
+	<div class="content" ng-repeat="game in games | orderBy:'nombre'">
+		<div class="nombre">{{game.nombre}} - {{game.codigo}}</div>
+		<span class="fase">{{game.fase}}</span>
+	</div>
+	</div>
+	<br>
+	<center><button ng-click="ShowForm()" ng-hide="formVisibility">Añadir Game</button></center>
+	<div ng-show="formVisibility" class="box">
+		<h3>Añadir Game</h3>
+		Nombre: <input type="text" ng-model="nuevoGame.nombre"><br>
+		Codigo: <input type="text" ng-model="nuevoGame.codigo"><br>
+		<pre>   Fase: <input type="text" ng-model="nuevoGame.fase"></pre><br><br>
+		<button class="boton" ng-click="Save()">
+			Guardar
+		</button>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.28/angular.min.js"></script>
+	<script src="js/gameController.js"></script>
+</body>
+</html>
