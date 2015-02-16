@@ -47,13 +47,11 @@ section {
 	opacity: 0.7;
 }
 footer {
-	width: 100%;
 	text-align: center;
 }
 footer img {
 	opacity: 0.4;
 	filter: alpha(opacity=40);
-	width: 100%;
 	-webkit-animation: 5s mover infinite;
 }
 @-webkit-keyframes mover {
