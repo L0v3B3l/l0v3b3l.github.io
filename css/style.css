@@ -81,6 +81,7 @@ p {
 footer img {
 	opacity: 0.3;
 	filter: alpha(opacity=30);
+	width: 200px;
 }
 p {
 	position: relative;
