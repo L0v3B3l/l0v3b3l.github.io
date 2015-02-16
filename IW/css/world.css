@@ -73,6 +73,7 @@ div#cube0 {
 	background: #00d5d5;
 	width: 20px;
 	height: 150px;
+	border-radius: 5px;
 }
 div#cube1 {
 	background: #00d5d5;
@@ -81,6 +82,7 @@ div#cube1 {
 	height: 150px;
 	left: 70px;
 	top: -80px;
+	border-radius: 5px;
 }
 div#cube2 {
 	background: #00d5d5;
@@ -89,6 +91,7 @@ div#cube2 {
 	height: 150px;
 	left: 45px;
 	top: -355px;
+	border-radius: 5px;
 	transform: rotate(120deg);
 	-webkit-transform: rotate(120deg);
 	-moz-transform: rotate(120deg);
@@ -102,6 +105,7 @@ div#cube3 {
 	height: 150px;
 	left: 85px;
 	top: -300px;
+	border-radius: 5px;
 	transform: rotate(120deg);
 	-webkit-transform: rotate(120deg);
 	-moz-transform: rotate(120deg);
@@ -155,6 +159,7 @@ div#cube0 {
 	background: #00d5d5;
 	width: 20px;
 	height: 150px;
+	border-radius: 5px;
 }
 div#cube1 {
 	background: #00d5d5;
@@ -163,6 +168,7 @@ div#cube1 {
 	height: 150px;
 	left: 70px;
 	top: -80px;
+	border-radius: 5px;
 }
 div#cube2 {
 	background: #00d5d5;
@@ -171,6 +177,7 @@ div#cube2 {
 	height: 150px;
 	left: 45px;
 	top: -355px;
+	border-radius: 5px;
 	transform: rotate(120deg);
 	-webkit-transform: rotate(120deg);
 	-moz-transform: rotate(120deg);
@@ -184,6 +191,7 @@ div#cube3 {
 	height: 150px;
 	left: 85px;
 	top: -300px;
+	border-radius: 5px;
 	transform: rotate(120deg);
 	-webkit-transform: rotate(120deg);
 	-moz-transform: rotate(120deg);
